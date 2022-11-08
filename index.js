@@ -42,7 +42,7 @@ const server = http.createServer(function(req, res) {
   res.end('Hello World\n');
 
   // log the request path
-  console.log('Request received on path: ' + trimmedPath + ' with method: ' + method + ' and with these query string parameters: ', queryStringObject + ' and with these headers: ', headers);
+  console.log('Request received on path with these headers: ', headers);
 
   console.log(parsedUrl);
 
